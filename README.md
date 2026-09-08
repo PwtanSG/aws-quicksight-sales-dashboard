@@ -8,8 +8,8 @@ QuickSight and visualised in an interactive dashboard.
 
 ## Dataset Source
 
-The dataset used in this project was provided by the
-[AWS QuickSight Author Workshop](https://catalog.workshops.aws/quicksight/en-US/author-workshop/1-build-your-first-dashboard/exercises). It is used here for educational and portfolio purposes. The dataset was not created by me.
+The dataset used in this project was taken from the
+[AWS QuickSight Author Workshop](https://catalog.workshops.aws/quicksight/en-US/author-workshop/1-build-your-first-dashboard/exercises). It is used here for learning and portfolio purposes.
 
 ## Project Scope
 
