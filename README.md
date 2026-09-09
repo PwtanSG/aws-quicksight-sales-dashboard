@@ -29,7 +29,9 @@ hands-on learning exercise. My work included:
 - Analyse overall sales and profitability
 - Compare performance across regions and products
 - Identify monthly sales trends
+- QoQ sales
 - Provide filters for interactive analysis
+- Data validation using Python or SQL
 
 ## Architecture
 
@@ -59,6 +61,12 @@ CSV Dataset → Amazon S3 → QuickSight Dataset → Analysis → Dashboard
 - Checked missing and duplicate records
 - Converted Order Date from string to date
 - Created calculated fields
+- csv file to be stored in AWS S3 bucket
+- manifest.json to be stored in AWS S3 bucket
+
+## Validation
+validation\validate.py
+Dashboard metrics were validated against the source CSV using Python and pandas.
 
 ## Calculated Field / data conversion
 
