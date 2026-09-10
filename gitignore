@@ -31,3 +31,9 @@ share/python-wheels/
 
 # Pyenv
 .python-version
+
+# Ignore everything inside output
+output/*
+
+# Keep the placeholder so the folder exists in Git
+!output/.gitkeep
