@@ -77,5 +77,5 @@ parseDate({Order Date}, 'MM/dd/yyyy')
 ```
 
 ## Docker
-docker build -t sales-validation .
-docker run --rm -v "${PWD}\output:/app/output" sales-validation
+docker build -t sales-validation . 
+docker run --rm -v "${PWD}\output:/app/output" sales-validation 
