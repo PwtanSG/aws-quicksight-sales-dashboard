@@ -77,5 +77,11 @@ parseDate({Order Date}, 'MM/dd/yyyy')
 ```
 
 ## Docker
-docker build -t sales-validation . 
+docker build -t sales-validation . <br>
 docker run --rm -v "${PWD}\output:/app/output" sales-validation 
+
+## install dependencies
+### pip install -r requirements.txt
+
+## unit test
+python -m pytest -v  
