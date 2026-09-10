@@ -66,7 +66,7 @@ CSV Dataset → Amazon S3 → QuickSight Dataset → Analysis → Dashboard
 
 ## Validation
 validation\validate.py
-Dashboard metrics were validated against the source CSV using Python and pandas.
+Dashboard metrics were validated against the source CSV using Python and pandas. Validation results can be found in the output folder.
 
 ## Calculated Field / data conversion
 
@@ -74,4 +74,8 @@ The original Order Date was stored as text:
 Create a calculated field to convert to date.
 ```text
 parseDate({Order Date}, 'MM/dd/yyyy') 
+```
 
+## Docker
+docker build -t sales-validation .
+docker run --rm -v "${PWD}\output:/app/output" sales-validation

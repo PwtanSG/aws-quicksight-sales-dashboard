@@ -34,6 +34,8 @@ share/python-wheels/
 
 # Ignore everything inside output
 output/*
+*.log
+output/*.log
 
 # Keep the placeholder so the folder exists in Git
 !output/.gitkeep
