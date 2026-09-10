@@ -33,3 +33,7 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t sales-validation:${{ github.sha }} .
+
+      - name: Test Docker container
+        run: docker run --rm sales-validation:${{ github.sha }}
+        
