@@ -85,3 +85,10 @@ docker run --rm -v "${PWD}\output:/app/output" sales-validation
 
 ## unit test
 python -m pytest -v  
+
+## QuickSight refresh
+aws quicksight create-ingestion \
+  --aws-account-id "123456789012" \
+  --data-set-id "your-dataset-id" \
+  --ingestion-id "unique-ingestion-id" \
+  --ingestion-type FULL_REFRESH
